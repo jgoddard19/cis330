@@ -1,0 +1,97 @@
+//This is some Pseudo-code for a function called VI_World
+//This is a pretend-function
+//It will not talk to you, it will not give output, it will not even compile.
+//But it will help us learn vi.
+
+
+function VI_World(variable1, variable2)
+	this.variable1 = Variable1
+	this.variable2 = Var2
+	print variable1
+	2 = variable1.this
+}
+
+function import(filename){
+	open filename
+	var1 = first_line
+var2 = The_Wrong_variable
+ 
+}
+
+function main(filename){
+	imput = import(filename)
+	VI_World(input[1],input[2])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+             
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+             
+
+
+
+
+
+
+
+
+
+
+
+
+
+             
+
+
+
+
+
+
+
+
+
+
+
+
+
+

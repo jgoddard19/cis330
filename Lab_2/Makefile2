@@ -1,0 +1,15 @@
+all:example_multiplier
+
+example_multiplier:lib
+	gcc -o example_multiplier t.c -I/Users/hangxu/330/multiplier/include -L/Users/hangxu/330/multiplier/lib -lmultiplier
+
+lib: doubler.o tripler.o
+	ar r libmultiplier.a doubler.o tripler.o
+	cp libmultiplier.a ~/330/multiplier/lib
+	cp multiplier.h ~/330/multiplier/include
+
+doubler.o: doubler.c
+	gcc -c doubler.c
+
+tripler.o: tripler.c
+	gcc -c tripler.c

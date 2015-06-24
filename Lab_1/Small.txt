@@ -1,0 +1,5 @@
+This is a small text file.
+
+As you can see, everything can be displayed in the window.
+
+(Ofcourse depending on the size of your window).

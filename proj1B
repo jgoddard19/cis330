@@ -1,0 +1,28 @@
+#!/bin/bash
+mkdir $1;
+cd $1;
+mkdir Dir1;
+cd Dir1;
+echo "This is File1" > File1.txt;
+chmod 400 File1.txt;
+cd ..;
+chmod 770 Dir1;
+mkdir Dir2;
+cd Dir2;
+echo "This is File2" > File2.txt;
+chmod 640 File2.txt;
+cd ..;
+chmod 775 Dir2;
+cd Dir1;
+mkdir Dir3;
+cd Dir3;
+mkdir Dir4;
+cd Dir4;
+echo "This is File3" > File3.txt;
+chmod 200 File3.txt;
+echo "This is File4" > File4.txt;
+chmod 666 File4.txt;
+cd ..;
+chmod 750 Dir4;
+cd ..;
+chmod 000 Dir3;
