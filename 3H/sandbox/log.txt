@@ -1,3 +1,0 @@
-Entered program from hank_exception
-Shrinker: about to execute
-Throwing exception: (Shrinker), Shrinker: no input1!

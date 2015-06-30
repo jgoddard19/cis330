@@ -1,1 +1,0 @@
-../hank_exception/stress_test.C
